@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;
+    transform: translate(0%,300%);
+
+}
+
+#start{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+#stop{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+}
